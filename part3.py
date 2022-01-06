@@ -19,3 +19,16 @@ Enter the height: 3
 """
 
 #write your code here 
+base = int(input("Enter the base: "))
+height = int(input("Enter the height: "))
+
+star1 = 0
+star = "*"
+star2 = 1
+
+while star1 <= base:
+  star1 = star1 + 1
+
+while star2 <= height:
+  star2 = star2 + 1
+  print(star1 * star)
